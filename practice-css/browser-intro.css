@@ -3,22 +3,28 @@ p {
 }
 
 p.info {
-	font-size: 10pt;
+	font-size: small;
+	background-color: #dfdfdf;
 }
 
 h1 {
 	background-color: #7f7fcf;
+	color: white;
+	text-shadow: navy;
 }
 
 h2 {
 	border: solid 1px black;
 	margin: 5px;
+	font-family: cursive;
+	color: #3f3faf;
 }
 
 div#zentai {
-	display: flex;
-	flex-direction: row;
-	width: 1024px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 200px;
+	padding: 5px 5px 5px 5px;
 }
 
 div#zentai > div {
