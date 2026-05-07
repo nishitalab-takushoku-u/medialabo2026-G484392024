@@ -24,16 +24,13 @@ img {
 	float: right;
 }
 
-p {
-	padding: 5px;
-	margin: 10px;
-}
-
 
 div#zentai {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	height: 200px;
+	grid-auto-rows: 200px;
+	gap: 10px;
+	width: 1024;
 }
 
 div#zentai > div {
