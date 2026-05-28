@@ -41,9 +41,9 @@ spankaisu.textContent = kaisu;
     }
   }
   // ここまで: 正解判定する
-
+ } 
 
 // ここから: ボタンを押した時のイベントハンドラとして hantei を登録
-  }let bottan = document.querySelector('#print');
-  bottan.addEventListener('click', hantei);
+let bottan = document.querySelector('#print');
+bottan.addEventListener('click', hantei);
 // ここまで: ボタンを押した時のイベントハンドラとして hantei を登録
