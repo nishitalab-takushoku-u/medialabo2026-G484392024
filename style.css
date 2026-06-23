@@ -1,9 +1,7 @@
 body {
 	font-family: sans-serif;
-	line-height: 1.6;
 	color: #333;
 	max-width: 800px;
-	margin: 0 auto;
 	padding: 20px;
 	background-color: #fcfcfc;
 }
@@ -25,7 +23,7 @@ h2 {
 	margin: 30px 0 15px 0;
 	font-family: sans-serif;
 	color: #3f3faf;
-	background: linear-gradient(to right, #ffefaf, transparent);
+	background-color: #ffefaf;
     padding: 8px 12px;
 	border-left: 6px solid #3f3faf;
 }
@@ -51,11 +49,9 @@ li {
 
 a {
 	color: navy;
-	text-decoration: none;
 	font-weight: bold;
 }
 
 a:hover {
 	color: #9c1616;
-	text-decoration: underline;
 }
