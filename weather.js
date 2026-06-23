@@ -85,6 +85,12 @@ function sendRequest() {
     alert('都市名を入力してください');
     return;
   }
+
+  const citylist = document.querySelector('#city-list');
+  if (citylist) {
+    citylist.style.display = 'none';
+  }
+
   const url =
     'https://www.nishita-lab.org/web-contents/jsons/openweather/'+key+'.json';
   axios.get(url)
